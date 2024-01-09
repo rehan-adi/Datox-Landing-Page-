@@ -16,7 +16,7 @@ function NavHome() {
                 {/* <h1 className='text-white pr-10 !important'>Datox</h1> */}
             </div>
             <div className='flex gap-12 items-center'>
-                <ul className='flex gap-10 bg-[#111] font-semibold px-10 py-3 text-[#D6DCDC] rounded-full border border-slate-50 items-center'>
+                <ul className='flex gap-10 bg-[#111] font-semibold px-10 py-3 text-[#D6DCDC] rounded-full border border-gray-500 items-center'>
                     <li className='hover:text-[#5233FF] duration-150'>Features</li>
                     <li className='hover:text-[#5233FF] duration-150'>Pricing</li>
                     <li className='hover:text-[#5233FF] duration-150'>FAQ</li>
