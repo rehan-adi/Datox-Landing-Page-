@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-image: url(Component/Images/c837a6_0dc8ea17b49e42f5adc4c9c76fc9c5c8f000.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
