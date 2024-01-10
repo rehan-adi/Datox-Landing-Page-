@@ -3,7 +3,7 @@ import { GoArrowRight } from "react-icons/go";
 
 function FourthPage() {
   return (
-    <div className='h-[160vh] w-auto bg-black text-white'>
+    <div className='h-[150vh] w-auto bg-black text-white'>
          <div>
                <div>
                   <h1 className='text-5xl pl-20 pt-20 pb-10 text-white'>Built by Professionals, for Professionals</h1>
