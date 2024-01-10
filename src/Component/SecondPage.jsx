@@ -2,14 +2,14 @@ import React from 'react'
 
 function SecondPage() {
     return (
-        <div className='h-[105vh] flex-col flex w-auto  bg-black'>
+        <div className='h-[190vh] flex-col flex w-auto  bg-black'>
             <div>
                 <h1 className='text-5xl pl-12 pt-20 pb-12 text-white '>All Your Data Needs in a <br />
                     Single AI-Powered Workspace</h1>
             </div>
 
-            <divvvvvv className='flex items-center justify-center gap-8'>
-                <div className='bg-red-500 mt-4 pl-6 second-img h-[70vh] border border-gray-700 rounded-xl w-[45vw]'>
+            <divvvvvv className='flex items-center bg-fixed justify-center gap-8'>
+                <div className=' mt-4 pl-6 second-img h-[70vh] border border-gray-700 rounded-xl w-[45vw]'>
                     <h1 className='text-white opacity-80 mt-12 text-6xl'>A</h1>
                     <h3 className='text-white uppercase font-semibold mt-10 text-sm'>DEEP DIVE ANALYSIS IN SECONDS</h3>
                     <p className='text-white mt-4 opacity-85'>Describe the product here. Include <br /> important features, pricing and other <br /> relevant info. Consider adding an image <br /> or video of the product. </p>
@@ -25,7 +25,7 @@ function SecondPage() {
                         </g>
                     </svg>
                 </div>
-                <div className='mt-4 pl-6 h-[70vh] border border-gray-700 rounded-xl w-[22vw] bg-[#222222]'>
+                <div className='mt-4 pl-6 h-[70vh] border border-gray-700 rounded-xl w-[20vw] bg-[#222222]'>
                     <h1 className='text-white opacity-80 mt-12 text-6xl'>B</h1>
                     <h3 className='text-white uppercase font-semibold mt-10 text-sm'>DATA VISUALIZATION</h3>
                     <p className='text-white mt-4 opacity-85'>Describe the product here. Include <br /> important features, pricing and other <br /> relevant info. Consider adding an image <br /> or video of the product. </p>
@@ -47,7 +47,7 @@ function SecondPage() {
                         </g>
                     </svg>
                 </div>
-                <div className='mt-4 pl-6 h-[70vh] border border-gray-700 rounded-xl w-[22vw] bg-[#222222]'>
+                <div className='mt-4 pl-6 h-[70vh] border border-gray-700 rounded-xl w-[20vw] bg-[#222222]'>
                     <h1 className='text-white opacity-80 mt-12 text-6xl'>C</h1>
                     <h3 className='text-white uppercase font-semibold mt-10 text-sm'>CUSTOM AI SOLUTIONS</h3>
                     <p className='text-white mt-4 opacity-85'>Describe the product here. Include <br /> important features, pricing and other <br /> relevant info. Consider adding an image <br /> or video of the product. </p>
@@ -61,6 +61,40 @@ function SecondPage() {
 </svg>
                 </div>
             </divvvvvv>
+            <div className='flex justify-center gap-8 items-center'>
+            <div className=' mt-4 pl-6 bg-[#222222] h-[70vh] border border-gray-700 rounded-xl w-[45vw]'>
+                    <h1 className='text-white opacity-80 mt-12 text-6xl'>D</h1>
+                    <h3 className='text-white uppercase font-semibold mt-10 text-sm'>SUPPORTING MASSIVE DATA SETS</h3>
+                    <p className='text-white mt-4 opacity-85'>Describe the product here. Include <br /> important features, pricing and other <br /> relevant info. Consider adding an image <br /> or video of the product. </p>
+
+                    <svg className='mt-9' preserveAspectRatio="xMidYMid meet" data-bbox="20 20 160 160" viewBox="20 20 160 160" height="60" width="60" xmlns="http://www.w3.org/2000/svg" data-type="color" role="presentation" aria-hidden="true" aria-label=""><defs><style>#comp-lk8dy2st svg</style></defs>
+                        <g>
+                            <path d="M54.286 20h91.429C164.65 20 180 35.35 180 54.286v91.429C180 164.65 164.65 180 145.714 180H54.286C35.35 180 20 164.65 20 145.714V54.286C20 35.35 35.35 20 54.286 20z" fill="#5233FF" data-color="1"></path>
+                            <path d="M149.714 135.048c-10.501 0-14.859-16.507-19.472-33.987-3.528-13.373-7.923-30.013-14.315-30.013-6.392 0-10.784 16.64-14.312 30.011-4.611 17.477-8.971 33.989-19.472 33.989-10.501 0-14.851-16.509-19.461-33.989-3.528-13.371-7.917-30.011-14.301-30.011a2.666 2.666 0 1 1 0-5.334c10.496 0 14.848 16.507 19.459 33.984 3.528 13.373 7.917 30.016 14.304 30.016 6.387 0 10.787-16.643 14.315-30.016 4.611-17.477 8.968-33.984 19.469-33.984 10.501 0 14.859 16.507 19.472 33.987 3.528 13.373 7.923 30.013 14.315 30.013a2.664 2.664 0 0 1 2.667 2.667 2.666 2.666 0 0 1-2.668 2.667z" fill="#D6DCDC" opacity=".3" data-color="2"></path>
+                            <path d="M81.475 136.485a5.333 5.333 0 1 0 0-10.667 5.333 5.333 0 0 0 0 10.667z" fill="#D6DCDC" data-color="2"></path>
+                            <path d="M64.496 103.194a5.333 5.333 0 1 0 0-10.667 5.333 5.333 0 0 0 0 10.667z" fill="#D6DCDC" data-color="2"></path>
+                            <path d="M136.131 118.901a5.333 5.333 0 1 0 0-10.667 5.333 5.333 0 0 0 0 10.667z" fill="#D6DCDC" data-color="2"></path>
+                            <path d="M105.651 84.38a5.333 5.333 0 1 0 0-10.667 5.333 5.333 0 0 0 0 10.667z" fill="#D6DCDC" data-color="2"></path>
+                        </g>
+                    </svg>
+                </div>
+            <div className=' mt-4 pl-6 second-img1 h-[70vh] border border-gray-700 rounded-xl w-[42vw]'>
+                    <h1 className='text-white opacity-80 mt-12 text-6xl'>E</h1>
+                    <h3 className='text-white uppercase font-semibold mt-10 text-sm'>CHAT WITH YOUR DATA</h3>
+                    <p className='text-white mt-4 opacity-85'>Describe the product here. Include <br /> important features, pricing and other <br /> relevant info. Consider adding an image <br /> or video of the product. </p>
+
+                    <svg className='mt-9' preserveAspectRatio="xMidYMid meet" data-bbox="20 20 160 160" viewBox="20 20 160 160" height="60" width="60" xmlns="http://www.w3.org/2000/svg" data-type="color" role="presentation" aria-hidden="true" aria-label=""><defs><style>#comp-lk8dy2st svg</style></defs>
+                        <g>
+                            <path d="M54.286 20h91.429C164.65 20 180 35.35 180 54.286v91.429C180 164.65 164.65 180 145.714 180H54.286C35.35 180 20 164.65 20 145.714V54.286C20 35.35 35.35 20 54.286 20z" fill="#5233FF" data-color="1"></path>
+                            <path d="M149.714 135.048c-10.501 0-14.859-16.507-19.472-33.987-3.528-13.373-7.923-30.013-14.315-30.013-6.392 0-10.784 16.64-14.312 30.011-4.611 17.477-8.971 33.989-19.472 33.989-10.501 0-14.851-16.509-19.461-33.989-3.528-13.371-7.917-30.011-14.301-30.011a2.666 2.666 0 1 1 0-5.334c10.496 0 14.848 16.507 19.459 33.984 3.528 13.373 7.917 30.016 14.304 30.016 6.387 0 10.787-16.643 14.315-30.016 4.611-17.477 8.968-33.984 19.469-33.984 10.501 0 14.859 16.507 19.472 33.987 3.528 13.373 7.923 30.013 14.315 30.013a2.664 2.664 0 0 1 2.667 2.667 2.666 2.666 0 0 1-2.668 2.667z" fill="#D6DCDC" opacity=".3" data-color="2"></path>
+                            <path d="M81.475 136.485a5.333 5.333 0 1 0 0-10.667 5.333 5.333 0 0 0 0 10.667z" fill="#D6DCDC" data-color="2"></path>
+                            <path d="M64.496 103.194a5.333 5.333 0 1 0 0-10.667 5.333 5.333 0 0 0 0 10.667z" fill="#D6DCDC" data-color="2"></path>
+                            <path d="M136.131 118.901a5.333 5.333 0 1 0 0-10.667 5.333 5.333 0 0 0 0 10.667z" fill="#D6DCDC" data-color="2"></path>
+                            <path d="M105.651 84.38a5.333 5.333 0 1 0 0-10.667 5.333 5.333 0 0 0 0 10.667z" fill="#D6DCDC" data-color="2"></path>
+                        </g>
+                    </svg>
+                </div>
+            </div>
         </div>
     )
 }
