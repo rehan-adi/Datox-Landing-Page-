@@ -4,7 +4,7 @@ function SecondPage() {
     return (
         <div className='h-[190vh] flex-col flex w-auto  bg-black'>
             <div>
-                <h1 className='text-5xl pl-12 pt-20 pb-12 text-white '>All Your Data Needs in a <br />
+                <h1 className='text-5xl pl-20 pt-20 pb-10 text-white '>All Your Data Needs in a <br />
                     Single AI-Powered Workspace</h1>
             </div>
 

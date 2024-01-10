@@ -1,5 +1,6 @@
 import NavHome from "./Component/NavHome"
 import SecondPage from "./Component/SecondPage"
+import ThirdPage from "./Component/ThirdPage"
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
     <NavHome />
     <SecondPage />
+    <ThirdPage />
     </>
   )
 }
