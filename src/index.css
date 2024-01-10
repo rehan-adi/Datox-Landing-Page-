@@ -24,3 +24,9 @@
     background-size: cover;
     background-position: center;
 }
+.fourth-img{
+    background-image: url(https://static.wixstatic.com/media/c837a6_1e3a36e8db8f496fbd99177643d93bc3~mv2.jpg/v1/fill/w_859,h_564,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/About.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

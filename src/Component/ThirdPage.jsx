@@ -27,7 +27,7 @@ function ThirdPage() {
                     <h1 className='text-2xl font-medium pt-6'>TIME SAVER</h1>
                 </div>
             </div>
-            <div className='flex items-center pt-16 pl-20 gap-8'>
+            <div className='flex items-center pt-8 pl-20 gap-8'>
                 <div className='w-80 h-32 flex items-center flex-col rounded-xl bg-[#4A4A4A]'>
                     <div className='w-80 flex rounded-t-xl items-center bg-[#1C1C1C] h-11'>
                         <h3 className='pl-5 font-semibold opacity-60 text-sm text-white'>FEATURE 4</h3>
@@ -48,7 +48,7 @@ function ThirdPage() {
                     <h1 className='text-2xl font-medium pt-6'>EASY DEPLOY</h1>
                 </div>
             </div>
-            <div className='flex justify-end pt-16 items-center pr-20'>
+            <div className='flex justify-end pt-16 items-center pr-24'>
                 <button className='rounded-full bg-white font-bold uppercase hover:bg-gradient-to-r from-purple-500 to-pink-500 focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 text-black px-8 py-2'>Read More<GoArrowRight className='inline-block ml-3 text-xl' /></button>
             </div>
         </div>
