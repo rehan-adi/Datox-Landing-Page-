@@ -1,8 +1,26 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { Link } from 'react-router-dom'
 import { GoArrowRight } from "react-icons/go";
+import { motion, useAnimation } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
 
 function Featuers() {
+
+  const controls1 = useAnimation();
+  const controls2 = useAnimation();
+
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+    rootMargin: '50px -50px',
+  });
+
+  useEffect(() => {
+    if (inView) {
+      controls1.start({ y: 0, opacity: 1, transition: { duration: 1 } });
+      controls2.start({ y: 0, opacity: 1, transition: { duration: 1, delay: 0.8} });
+    }
+  }, [inView, controls1, controls2]);
+
   return (
     <div className='w-auto bg-black h-[238vh]'>
         <div className='feature-img w-auto h-[55vh]'>
@@ -12,7 +30,11 @@ function Featuers() {
           Single AI-Powered Workspace</h1>
       </div>
         </div>
-      <div className='flex gap-7 mt-14 pl-20'>
+      <motion.div 
+      initial={{y: 500, opacity: 1}}
+      animate={{y: 0, opacity: 1}}
+      transition={{duration: 1}}
+      className='flex gap-7 mt-14 pl-20'>
         <div className='w-[28vw] h-[43vh] rounded-xl border flex justify-center items-start flex-col  border-gray-600 bg-[#222222]'>
           <div className='flex items-center pl-5 gap-5'> 
           <svg preserveAspectRatio="xMidYMid meet" data-bbox="20 20 160 160" viewBox="20 20 160 160" height="60" width="60" xmlns="http://www.w3.org/2000/svg" data-type="color" role="presentation" aria-hidden="true" aria-label=""><defs><style>#comp-lkb88386__item1 svg [data-color="1"]</style></defs>
@@ -62,8 +84,12 @@ function Featuers() {
                <p className='text-white pl-5 text-base opacity-80 mt-4'>This is the space to describe the product. <br /> Write a short overview that includes <br /> important features, pricing and other <br /> relevant info for a potential buyer. Consider <br /> adding an image or video to show off <br /> the product and entice visitors to make a <br /> purchase.</p>
           </div>
         </div>
-      </div>
-      <div className='flex gap-7 pt-5 pl-20'>
+      </motion.div>
+      <motion.div
+      initial={{opacity: 1, y: 200}}
+      animate={controls1}
+      ref={ref} 
+      className='flex gap-7 pt-5 pl-20'>
         <div className='w-[28vw] h-[43vh] rounded-xl border flex justify-center items-start flex-col  border-gray-600 bg-[#222222]'>
           <div className='flex items-center pl-5 gap-5'> 
           <svg preserveAspectRatio="xMidYMid meet" data-bbox="20 20 160 160" viewBox="20 20 160 160" height="60" width="60" xmlns="http://www.w3.org/2000/svg" data-type="color" role="presentation" aria-hidden="true" aria-label=""><defs><style>#comp-lkb88386__item-lkb81ghv svg [data-color="1"]</style></defs>
@@ -120,7 +146,7 @@ function Featuers() {
                <p className='text-white pl-5 text-base opacity-80 mt-4'>This is the space to describe the product. <br /> Write a short overview that includes <br /> important features, pricing and other <br /> relevant info for a potential buyer. Consider <br /> adding an image or video to show off <br /> the product and entice visitors to make a <br /> purchase.</p>
           </div>
         </div>
-      </div>
+      </motion.div>
       <div className='feature-img1 flex justify-center flex-col items-start w-auto h-[90vh]'>
              <h1 className='text-white text-5xl pl-20 pt-32 pb-10'>Get All the Tools You Need <br />In a Single Platform</h1>
              <Link to="/Pricing">

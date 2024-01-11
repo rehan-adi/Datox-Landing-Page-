@@ -1,9 +1,33 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { GoArrowRight } from "react-icons/go";
 import { Link } from 'react-router-dom';
+import { motion, useAnimation } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
 
 
 function Home() {
+
+  const controls1 = useAnimation();
+  const controls2 = useAnimation();
+  const controls3 = useAnimation();
+  const controls4 = useAnimation();
+  const controls5 = useAnimation();
+
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+    rootMargin: '50px -50px',
+  });
+
+  useEffect(() => {
+    if (inView) {
+      controls1.start({ x: 0, opacity: 1, transition: { duration: 1 } });
+      controls2.start({ x: 0, opacity: 1, transition: { duration: 1, delay: 0.4} });
+      controls3.start({ x: 0, opacity: 1, transition: { duration: 1, delay: 0.9} });
+      controls4.start({ x: 300, opacity: 1, transition: { duration: 1, delay: 0.9} });
+      controls5.start({ x: 0, opacity: 1, transition: { duration: 1, delay: 0.9} });
+    }
+  }, [inView, controls1, controls2, controls3, controls4, controls5]);
+
     return (
         <div className='h-[625vh] w-auto'>
           <main className='main flex flex-col justify-center h-screen w-auto items-center'>
@@ -186,24 +210,36 @@ function Home() {
                         <h3 className='font-semibold opacity-60 text-sm'><GoArrowRight className=' text-xl mr-1 inline-block'/> TRUSTED CUSTOMERS</h3>
                     </div>
                 </div>
-             <div className='w-80 h-44 flex relative flex-col text-white rounded-xl hover:bg-[#5233FF] bg-[#4A4A4A]'>
+             <motion.div 
+              initial={{opacity: 1, x: -333}}
+              animate={controls1}
+              ref={ref} 
+             className='w-80 h-44 flex relative flex-col text-white rounded-xl hover:bg-[#5233FF] bg-[#4A4A4A]'>
                     <h1 className='text-7xl pl-10 font-light pt-6'>1M</h1>
                     <div className='w-80 flex rounded-b-xl  items-center justify-center absolute bottom-0 bg-[#1C1C1C] h-11'>
                         <h3 className='font-semibold opacity-60 text-sm'><GoArrowRight className=' text-xl mr-1 inline-block'/>REPORTS GENERATED</h3>
                     </div>
-                </div>
-             <div className='w-80 h-44 flex relative flex-col text-white rounded-xl hover:bg-[#5233FF] bg-[#4A4A4A]'>
+                </motion.div>
+             <motion.div
+              initial={{opacity: 1, x: -666}}
+              animate={controls2}
+              ref={ref}  
+             className='w-80 h-44 flex relative flex-col text-white rounded-xl hover:bg-[#5233FF] bg-[#4A4A4A]'>
                     <h1 className='text-7xl pl-10 font-light pt-6'>32K</h1>
                     <div className='w-80 flex rounded-b-xl  items-center justify-center absolute bottom-0 bg-[#1C1C1C] h-11'>
                         <h3 className='font-semibold opacity-60 text-sm'><GoArrowRight className=' text-xl mr-1 inline-block'/>TOKEN ACCESS</h3>
                     </div>
-                </div>
-             <div className='w-80 h-44 flex relative flex-col text-white rounded-xl hover:bg-[#5233FF] bg-[#4A4A4A]'>
+                </motion.div>
+             <motion.div
+              initial={{opacity: 1, x: -999}}
+              animate={controls3}
+              ref={ref}   
+             className='w-80 h-44 flex relative flex-col text-white rounded-xl hover:bg-[#5233FF] bg-[#4A4A4A]'>
                     <h1 className='text-7xl pl-10 font-light pt-6'>10</h1>
                     <div className='w-80 flex rounded-b-xl items-center justify-center absolute bottom-0 bg-[#1C1C1C] h-11'>
                         <h3 className='font-semibold opacity-60 text-sm'><GoArrowRight className=' text-xl mr-1 inline-block'/>SUPPORTED LANGUAGES</h3>
                     </div>
-                </div>
+                </motion.div>
 
              </div>
          </div>
