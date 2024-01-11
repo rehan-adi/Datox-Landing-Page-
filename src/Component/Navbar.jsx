@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaUserCircle } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
@@ -17,11 +18,15 @@ function Navbar() {
             <div className='flex gap-12 items-center'>
                 <ul className='flex gap-10 bg-[#111] font-semibold px-10 py-3 text-[#D6DCDC] rounded-full border border-gray-500 items-center'>
                     <li className='hover:text-[#5233FF] duration-150'>Features</li>
+                    <Link to="/Pricing">
                     <li className='hover:text-[#5233FF] duration-150'>Pricing</li>
+                    </Link>
                     <li className='hover:text-[#5233FF] duration-150'>FAQ</li>
                     <li> <FaUserCircle className='inline-block mr-3 text-xl' />Log In</li>
                 </ul>
+                <Link to="/Pricing">
                 <button className='uppercase bg-black rounded-full border-2 hover:bg-white font-semibold hover:text-black duration-150 hover:font-semibold mr-10 px-8 py-3 border-white'>Get Started</button>
+                </Link>
             </div>
         </nav>
     </div>
