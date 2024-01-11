@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className='bg-black border-t flex flex-col text-white border-slate-100 h-[40vh] w-auto '>
+    <div className='bg-black border-t flex flex-col text-white border-slate-500 h-[40vh] w-auto '>
              <div className='flex  pt-12 justify-evenly'>
                  <div>
                  <svg preserveAspectRatio="xMidYMid meet" data-bbox="20 46.333 160 107" viewBox="20 46.333 160 107" height="25" width="100" xmlns="http://www.w3.org/2000/svg" data-type="color" role="img" aria-label="Homepage">

@@ -17,7 +17,9 @@ function Navbar() {
             </div>
             <div className='flex gap-12 items-center'>
                 <ul className='flex gap-10 bg-[#111] font-semibold px-10 py-3 text-[#D6DCDC] rounded-full border border-gray-500 items-center'>
+                    <Link to="/featuers">
                     <li className='hover:text-[#5233FF] duration-150'>Features</li>
+                    </Link>
                     <Link to="/Pricing">
                     <li className='hover:text-[#5233FF] duration-150'>Pricing</li>
                     </Link>
