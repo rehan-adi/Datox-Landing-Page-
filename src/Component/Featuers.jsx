@@ -5,14 +5,14 @@ import { GoArrowRight } from "react-icons/go";
 function Featuers() {
   return (
     <div className='w-auto bg-black h-[238vh]'>
-        <div className='feature-img w-auto h-[40vh]'>
+        <div className='feature-img w-auto h-[55vh]'>
              
-        </div>
       <div>
-        <h1 className='text-white text-5xl pl-20 pb-10'>All Your Data Needs in a <br />
+        <h1 className='text-white text-5xl pt-72 pl-20 pb-10'>All Your Data Needs in a <br />
           Single AI-Powered Workspace</h1>
       </div>
-      <div className='flex gap-7 pl-20'>
+        </div>
+      <div className='flex gap-7 mt-14 pl-20'>
         <div className='w-[28vw] h-[43vh] rounded-xl border flex justify-center items-start flex-col  border-gray-600 bg-[#222222]'>
           <div className='flex items-center pl-5 gap-5'> 
           <svg preserveAspectRatio="xMidYMid meet" data-bbox="20 20 160 160" viewBox="20 20 160 160" height="60" width="60" xmlns="http://www.w3.org/2000/svg" data-type="color" role="presentation" aria-hidden="true" aria-label=""><defs><style>#comp-lkb88386__item1 svg [data-color="1"]</style></defs>

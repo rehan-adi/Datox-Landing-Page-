@@ -22,6 +22,9 @@ function Pricing() {
                     </div>
                 </div>
               <div className='w-[440px] text-white relative flex items-center flex-col h-[73vh]  rounded-xl bg-black'>
+                            <div className='w-20 flex justify-center items-center h-8 absolute top-[-15px] bg-[#5233FF] opacity-90'>
+                                <h3>Popular</h3>
+                            </div>
                     <h1 className='text-2xl font-light pt-6'>STANDARD</h1>
                     <h3 className='mt-5 text-5xl'><sup className='text-lg'>$</sup>4.99</h3>
                     <p className='text-xs text-white mt-2 opacity-90'>Every Month</p>
