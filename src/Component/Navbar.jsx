@@ -1,11 +1,10 @@
 import React from 'react'
 import { FaUserCircle } from "react-icons/fa";
-import { GoArrowRight } from "react-icons/go";
 
-function NavHome() {
-    return (
-        <div>
-        <nav className='w-screen flex justify-between fixed items-center px-16 text-white h-28'>
+function Navbar() {
+  return (
+    <div>
+         <nav className='w-screen flex justify-between fixed items-center px-16 text-white h-28'>
             <div className='flex items-center'>
                 <svg preserveAspectRatio="xMidYMid meet" data-bbox="20 46.333 160 107" viewBox="20 46.333 160 107" height="25" width="200" xmlns="http://www.w3.org/2000/svg" data-type="color" role="img" aria-label="Homepage">
                     <g>
@@ -25,17 +24,8 @@ function NavHome() {
                 <button className='uppercase bg-black rounded-full border-2 hover:bg-white font-semibold hover:text-black duration-150 hover:font-semibold mr-10 px-8 py-3 border-white'>Get Started</button>
             </div>
         </nav>
-          <main className='main flex flex-col justify-center items-center h-screen w-auto  '>
-              <div>
-              <h1 className='text-white text-9xl '>Your New AI Assistant</h1>
-              </div>
-              <div className='absolute flex items-center right-40 gap-10 bottom-16'>
-                <h2 className='text-white opacity-85 text-3xl'>Get AI-Generated Data Solutions in Seconds</h2>
-                <button className='rounded-full bg-white font-bold uppercase hover:bg-gradient-to-r from-purple-500 to-pink-500 focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 text-black px-8 py-2'>Get Started<GoArrowRight className='inline-block ml-3 text-xl' /></button>
-              </div>
-          </main>
-        </div>
-    )
+    </div>
+  )
 }
 
-export default NavHome
+export default Navbar

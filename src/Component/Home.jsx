@@ -1,8 +1,19 @@
 import React from 'react'
+import { GoArrowRight } from "react-icons/go";
 
-function SecondPage() {
+function Home() {
     return (
-        <div className='h-[190vh] flex-col flex w-auto  bg-black'>
+        <div className='h-[625vh] w-auto'>
+          <main className='main flex flex-col justify-center h-screen w-auto items-center'>
+              <div>
+              <h1 className='text-white text-9xl '>Your New AI Assistant</h1>
+              </div>
+              <div className='absolute flex items-center right-40 gap-10 bottom-16'>
+                <h2 className='text-white opacity-85 text-3xl'>Get AI-Generated Data Solutions in Seconds</h2>
+                <button className='rounded-full bg-white font-bold uppercase hover:bg-gradient-to-r from-purple-500 to-pink-500 focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 text-black px-8 py-2'>Get Started<GoArrowRight className='inline-block ml-3 text-xl' /></button>
+              </div>
+          </main>
+          <div className='h-[190vh] flex-col flex w-auto  bg-black'>
             <div>
                 <h1 className='text-5xl pl-20 pt-20 pb-10 text-white '>All Your Data Needs in a <br />
                     Single AI-Powered Workspace</h1>
@@ -96,7 +107,112 @@ function SecondPage() {
                 </div>
             </div>
         </div>
+        <div className='h-[90vh] w-auto bg-black'>
+            <div>
+                <h1 className='text-5xl pl-20 pt-8 pb-10 text-white'>A Seamless User Experience</h1>
+            </div>
+            <div className='flex items-center pt-16 pl-[405px] gap-8'>
+                <div className='w-80 text-white flex items-center flex-col h-32  rounded-xl bg-[#5233FF]'>
+                    <div className='w-80 flex rounded-t-xl items-center bg-[#1C1C1C] h-11'>
+                        <h3 className='pl-5 font-semibold opacity-60 text-sm'>FEATURE 1</h3>
+                    </div>
+                    <h1 className='text-2xl font-medium pt-6'>FLEXIBLE PLATFORM</h1>
+                </div>
+                <div className='w-80 h-32 flex items-center flex-col rounded-t-xl rounded-xl bg-[#4A4A4A]'>
+                    <div className='w-80 flex rounded-t-xl items-center bg-[#1C1C1C] h-11'>
+                        <h3 className='pl-5 font-semibold opacity-60 text-sm text-white'>FEATURE 2</h3>
+                    </div>
+                    <h1 className='text-2xl text-white font-medium pt-6'>FULLY SECURED</h1>
+                </div>
+                <div className='w-80 h-32 flex items-center flex-col text-white rounded-xl bg-[#5233FF]'>
+                    <div className='w-80 flex rounded-t-xl items-center bg-[#1C1C1C] h-11'>
+                        <h3 className='pl-5 font-semibold opacity-60 text-sm'>FEATURE 3</h3>
+                    </div>
+                    <h1 className='text-2xl font-medium pt-6'>TIME SAVER</h1>
+                </div>
+            </div>
+            <div className='flex items-center pt-8 pl-20 gap-8'>
+                <div className='w-80 h-32 flex items-center flex-col rounded-xl bg-[#4A4A4A]'>
+                    <div className='w-80 flex rounded-t-xl items-center bg-[#1C1C1C] h-11'>
+                        <h3 className='pl-5 font-semibold opacity-60 text-sm text-white'>FEATURE 4</h3>
+                    </div>
+                    <h1 className='text-2xl text-white font-medium pt-6'>KEEP TRACK</h1>
+                </div>
+                <div className='w-80 h-32 flex items-center flex-col text-white rounded-xl bg-[#5233FF]'>
+                    <div className='w-80 flex rounded-t-xl items-center bg-[#1C1C1C] h-11'>
+                        <h3 className='pl-5 font-semibold opacity-60 text-sm'>FEATURE 5</h3>
+                    </div>
+                    <h1 className='text-2xl font-medium pt-6'>
+                        MORE FOCUS</h1>
+                </div>
+                <div className='w-80 h-32  flex items-center flex-col text-white rounded-xl bg-[#4A4A4A]'>
+                    <div className='w-80 flex rounded-t-xl items-center bg-[#1C1C1C] h-11'>
+                        <h3 className='pl-5 font-semibold opacity-60 text-sm'>FEATURE 6</h3>
+                    </div>
+                    <h1 className='text-2xl font-medium pt-6'>EASY DEPLOY</h1>
+                </div>
+            </div>
+            <div className='flex justify-end pt-16 items-center pr-24'>
+                <button className='rounded-full bg-white font-bold uppercase hover:bg-gradient-to-r from-purple-500 to-pink-500 focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 text-black px-8 py-2'>Read More<GoArrowRight className='inline-block ml-3 text-xl' /></button>
+            </div>
+        </div>
+        <div className='h-[150vh] w-auto bg-black text-white'>
+         <div>
+               <div>
+                  <h1 className='text-5xl pl-20 pt-20 pb-10 text-white'>Built by Professionals, for Professionals</h1>
+               </div>
+               <div className='flex justify-between pt-16 px-20'>
+                   <div>
+                   <p>This is a space to share more about the business: who's <br /> behind it, what it does and what this site has to offer. It’s an <br /> opportunity to tell the story behind the business or describe <br /> a special service or product it offers. You can use this <br /> section to share the company history or highlight a <br /> particular feature that sets it apart from competitors.</p>
+                    <p className='pt-6'>Let the writing speak for itself. Keep a consistent tone and <br /> voice throughout the website to stay true to the brand <br /> image and give visitors a taste of the company’s values and <br /> personality.</p>
+                   </div>
+                    <div className='w-[666px] h-[444px] border border-gray-700 rounded-xl fourth-img bg-[#5233FF]'>
+
+                    </div>
+               </div>
+         </div>
+         <div>
+             <div>
+                  <h1 className='text-5xl pl-20 pt-20 pb-10 text-white'>A Glimpse into Our Growth</h1>
+             </div>
+             <div className='pl-20 flex gap-6 pt-16'>
+             <div className='w-80 h-44 flex relative flex-col text-white rounded-xl hover:bg-[#5233FF] bg-[#4A4A4A]'>
+                    <h1 className='text-7xl pl-10 font-light pt-6'>3K</h1>
+                    <div className='w-80 flex rounded-b-xl  items-center justify-center absolute bottom-0 bg-[#1C1C1C] h-11'>
+                        <h3 className='font-semibold opacity-60 text-sm'><GoArrowRight className=' text-xl mr-1 inline-block'/> TRUSTED CUSTOMERS</h3>
+                    </div>
+                </div>
+             <div className='w-80 h-44 flex relative flex-col text-white rounded-xl hover:bg-[#5233FF] bg-[#4A4A4A]'>
+                    <h1 className='text-7xl pl-10 font-light pt-6'>1M</h1>
+                    <div className='w-80 flex rounded-b-xl  items-center justify-center absolute bottom-0 bg-[#1C1C1C] h-11'>
+                        <h3 className='font-semibold opacity-60 text-sm'><GoArrowRight className=' text-xl mr-1 inline-block'/>REPORTS GENERATED</h3>
+                    </div>
+                </div>
+             <div className='w-80 h-44 flex relative flex-col text-white rounded-xl hover:bg-[#5233FF] bg-[#4A4A4A]'>
+                    <h1 className='text-7xl pl-10 font-light pt-6'>32K</h1>
+                    <div className='w-80 flex rounded-b-xl  items-center justify-center absolute bottom-0 bg-[#1C1C1C] h-11'>
+                        <h3 className='font-semibold opacity-60 text-sm'><GoArrowRight className=' text-xl mr-1 inline-block'/>TOKEN ACCESS</h3>
+                    </div>
+                </div>
+             <div className='w-80 h-44 flex relative flex-col text-white rounded-xl hover:bg-[#5233FF] bg-[#4A4A4A]'>
+                    <h1 className='text-7xl pl-10 font-light pt-6'>10</h1>
+                    <div className='w-80 flex rounded-b-xl items-center justify-center absolute bottom-0 bg-[#1C1C1C] h-11'>
+                        <h3 className='font-semibold opacity-60 text-sm'><GoArrowRight className=' text-xl mr-1 inline-block'/>SUPPORTED LANGUAGES</h3>
+                    </div>
+                </div>
+
+             </div>
+         </div>
+    </div>
+    <div className='bg-black flex items-start justify-center flex-col w-auto fifth-img h-[95vh]'>
+                <h1 className='text-5xl pl-20 pt-20 pb-10 text-white '>Get All the Tools You Need <br />
+                    In a Single Platform</h1>
+                   <div className='pl-20'>
+                   <button className='rounded-full bg-white font-bold uppercase hover:bg-gradient-to-r from-purple-500 to-pink-500 focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 text-black px-8 py-2'>Get Started<GoArrowRight className='inline-block ml-3 text-xl' /></button>
+                   </div>
+        </div>
+        </div>
     )
 }
 
-export default SecondPage
+export default Home

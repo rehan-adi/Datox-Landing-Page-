@@ -1,21 +1,16 @@
-import FifthPage from "./Component/FifthPage"
 import Footer from "./Component/Footer"
-import FourthPage from "./Component/FourthPage"
-import NavHome from "./Component/NavHome"
-import SecondPage from "./Component/SecondPage"
-import ThirdPage from "./Component/ThirdPage"
-
+import Home from "./Component/Home"
+import Navbar from "./Component/Navbar"
+import Pricing from "./Component/Pricing"
 
 function App() {
 
   return (
     <>
-    <NavHome />
-    <SecondPage />
-    <ThirdPage />
-    <FourthPage />
-    <FifthPage />
+    <Navbar />
+    <Home />
     <Footer />
+    <Pricing />
     </>
   )
 }

@@ -36,3 +36,9 @@
     background-size: cover;
     background-position: center;
 }
+.Pricing-img{
+    background-image: url(https://static.wixstatic.com/media/c837a6_2e64a37354294dbaa6d970f0f1d7468b~mv2.jpg/v1/fill/w_1899,h_1198,fp_0.16_0.01,q_90,usm_0.66_1.00_0.01,enc_auto/c837a6_2e64a37354294dbaa6d970f0f1d7468b~mv2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
